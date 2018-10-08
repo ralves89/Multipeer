@@ -11,9 +11,20 @@
 		CBEF253C214C2FB200E56D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF253B214C2FB200E56D20 /* ViewController.swift */; };
 		CBEF253F214C2FB200E56D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEF253D214C2FB200E56D20 /* Main.storyboard */; };
 		CBEF2542214C2FB200E56D20 /* Multipeer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBEF2540214C2FB200E56D20 /* Multipeer.xcdatamodeld */; };
-		CBEF2544214C2FB200E56D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEF2543214C2FB200E56D20 /* Assets.xcassets */; };
 		CBEF2547214C2FB200E56D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBEF2545214C2FB200E56D20 /* LaunchScreen.storyboard */; };
+		CBEF254F214C35FF00E56D20 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBEF254E214C35FF00E56D20 /* Media.xcassets */; };
+		CBEF2557214C3CB300E56D20 /* MultipeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEF2556214C3CB300E56D20 /* MultipeerUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBEF2559214C3CB300E56D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBEF252E214C2FB200E56D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBEF2535214C2FB200E56D20;
+			remoteInfo = Multipeer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CBEF2536214C2FB200E56D20 /* Multipeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multipeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,13 +32,23 @@
 		CBEF253B214C2FB200E56D20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBEF253E214C2FB200E56D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBEF2541214C2FB200E56D20 /* Multipeer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Multipeer.xcdatamodel; sourceTree = "<group>"; };
-		CBEF2543214C2FB200E56D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBEF2546214C2FB200E56D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBEF2548214C2FB200E56D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBEF254E214C35FF00E56D20 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CBEF2554214C3CB300E56D20 /* MultipeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEF2556214C3CB300E56D20 /* MultipeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerUITests.swift; sourceTree = "<group>"; };
+		CBEF2558214C3CB300E56D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CBEF2533214C2FB200E56D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF2551214C3CB300E56D20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEF2538214C2FB200E56D20 /* Multipeer */,
+				CBEF2555214C3CB300E56D20 /* MultipeerUITests */,
 				CBEF2537214C2FB200E56D20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEF2536214C2FB200E56D20 /* Multipeer.app */,
+				CBEF2554214C3CB300E56D20 /* MultipeerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +79,24 @@
 		CBEF2538214C2FB200E56D20 /* Multipeer */ = {
 			isa = PBXGroup;
 			children = (
+				CBEF254E214C35FF00E56D20 /* Media.xcassets */,
 				CBEF2539214C2FB200E56D20 /* AppDelegate.swift */,
 				CBEF253B214C2FB200E56D20 /* ViewController.swift */,
 				CBEF253D214C2FB200E56D20 /* Main.storyboard */,
-				CBEF2543214C2FB200E56D20 /* Assets.xcassets */,
 				CBEF2545214C2FB200E56D20 /* LaunchScreen.storyboard */,
 				CBEF2548214C2FB200E56D20 /* Info.plist */,
 				CBEF2540214C2FB200E56D20 /* Multipeer.xcdatamodeld */,
 			);
 			path = Multipeer;
+			sourceTree = "<group>";
+		};
+		CBEF2555214C3CB300E56D20 /* MultipeerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBEF2556214C3CB300E56D20 /* MultipeerUITests.swift */,
+				CBEF2558214C3CB300E56D20 /* Info.plist */,
+			);
+			path = MultipeerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +119,24 @@
 			productReference = CBEF2536214C2FB200E56D20 /* Multipeer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CBEF2553214C3CB300E56D20 /* MultipeerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEF255B214C3CB300E56D20 /* Build configuration list for PBXNativeTarget "MultipeerUITests" */;
+			buildPhases = (
+				CBEF2550214C3CB300E56D20 /* Sources */,
+				CBEF2551214C3CB300E56D20 /* Frameworks */,
+				CBEF2552214C3CB300E56D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBEF255A214C3CB300E56D20 /* PBXTargetDependency */,
+			);
+			name = MultipeerUITests;
+			productName = MultipeerUITests;
+			productReference = CBEF2554214C3CB300E56D20 /* MultipeerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +150,11 @@
 					CBEF2535214C2FB200E56D20 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					CBEF2553214C3CB300E56D20 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBEF2535214C2FB200E56D20;
 					};
 				};
 			};
@@ -117,6 +172,7 @@
 			projectRoot = "";
 			targets = (
 				CBEF2535214C2FB200E56D20 /* Multipeer */,
+				CBEF2553214C3CB300E56D20 /* MultipeerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,8 +183,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBEF2547214C2FB200E56D20 /* LaunchScreen.storyboard in Resources */,
-				CBEF2544214C2FB200E56D20 /* Assets.xcassets in Resources */,
+				CBEF254F214C35FF00E56D20 /* Media.xcassets in Resources */,
 				CBEF253F214C2FB200E56D20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEF2552214C3CB300E56D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +208,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CBEF2550214C3CB300E56D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBEF2557214C3CB300E56D20 /* MultipeerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBEF255A214C3CB300E56D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBEF2535214C2FB200E56D20 /* Multipeer */;
+			targetProxy = CBEF2559214C3CB300E56D20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CBEF253D214C2FB200E56D20 /* Main.storyboard */ = {
@@ -304,6 +383,36 @@
 			};
 			name = Release;
 		};
+		CBEF255C214C3CB300E56D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUC8ZV3LK2;
+				INFOPLIST_FILE = MultipeerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rra.MultipeerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Multipeer;
+			};
+			name = Debug;
+		};
+		CBEF255D214C3CB300E56D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BUC8ZV3LK2;
+				INFOPLIST_FILE = MultipeerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rra.MultipeerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Multipeer;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -321,6 +430,15 @@
 			buildConfigurations = (
 				CBEF254C214C2FB200E56D20 /* Debug */,
 				CBEF254D214C2FB200E56D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBEF255B214C3CB300E56D20 /* Build configuration list for PBXNativeTarget "MultipeerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBEF255C214C3CB300E56D20 /* Debug */,
+				CBEF255D214C3CB300E56D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
